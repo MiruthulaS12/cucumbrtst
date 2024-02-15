@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.643" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login Functionality of Tricentis" name="To Test the Login Functionality of Tricentis" time="6.77">
+<system-out><![CDATA[
+Given I am on the after login home page.....................................passed
+When I click on the login link..............................................passed
+And I will enter the "user@gmail.com" in Email tab..........................passed
+And I will enter the "user" in Password tab.................................passed
+And I will click on the Login button........................................passed
+Then It should get login and show "success".................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Functionality of Tricentis" name="To test the Search Functionality of Tricentis Search bar" time="5.371">
+<system-out><![CDATA[
+Given I am on the home page.................................................passed
+When I type "science" in search textbox.....................................passed
+And I click on the search button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
